@@ -158,9 +158,17 @@
     updateSeekUI(0);
   }
 
-  function play() {
+  async function play() {
     if (isPlaying || !fullMixBuffer) return;
-    if (audioCtx.state === 'suspended') audioCtx.resume();
+    if (audioCtx.state === 'suspended') {
+      try {
+        await audioCtx.resume();
+      } catch (e) {
+        statusEl.textContent = `Couldn't start audio: ${e.message}`;
+        return;
+      }
+    }
+    if (isPlaying || !fullMixBuffer) return; // state may have changed while awaiting resume
     const offset = getCurrentPosition() >= duration ? 0 : getCurrentPosition();
     startSourcesAt(offset);
     isPlaying = true;
