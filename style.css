@@ -1,0 +1,120 @@
+:root {
+  color-scheme: dark;
+  --bg: #14151a;
+  --panel: #1e2028;
+  --text: #f2f2f5;
+  --muted: #9a9ba5;
+  --accent: #6c5ce7;
+  --accent-off: #444657;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.player {
+  width: min(480px, 90vw);
+  background: var(--panel);
+  border-radius: 16px;
+  padding: 32px 28px;
+  text-align: center;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.4);
+}
+
+.song-row {
+  margin-bottom: 14px;
+}
+
+#song-select {
+  width: 100%;
+  background: var(--accent-off);
+  color: var(--text);
+  border: none;
+  border-radius: 10px;
+  padding: 10px 12px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#song-select:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+h1 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin: 0 0 28px;
+}
+
+.seek-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+#seek-bar {
+  flex: 1;
+  accent-color: var(--accent);
+}
+
+.seek-row span {
+  font-variant-numeric: tabular-nums;
+  font-size: 0.85rem;
+  color: var(--muted);
+  min-width: 36px;
+}
+
+.controls {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+button {
+  border: none;
+  border-radius: 999px;
+  padding: 12px 22px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s ease, transform 0.1s ease;
+}
+
+button:active { transform: scale(0.97); }
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+#play-pause-btn {
+  background: var(--accent);
+  color: white;
+}
+
+#vocal-toggle-btn {
+  background: var(--accent-off);
+  color: var(--text);
+}
+
+#vocal-toggle-btn.vocals-off {
+  background: #d63447;
+}
+
+#status {
+  margin-top: 20px;
+  font-size: 0.8rem;
+  color: var(--muted);
+}

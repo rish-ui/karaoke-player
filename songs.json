@@ -1,0 +1,16 @@
+[
+  {
+    "id": "the-hills",
+    "title": "The Hills",
+    "artist": "The Weeknd",
+    "fullMix": "audio/the-hills/full_mix.wav",
+    "instrumental": "audio/the-hills/instrumental.wav"
+  },
+  {
+    "id": "come-n-go",
+    "title": "Come N Go",
+    "artist": "Yeat (prod. BNYX, Sapjer)",
+    "fullMix": "audio/come-n-go/full_mix.wav",
+    "instrumental": "audio/come-n-go/instrumental.wav"
+  }
+]

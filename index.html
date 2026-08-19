@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vocal-Toggle Karaoke Player</title>
+<meta name="theme-color" content="#14151a">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Karaoke">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="player">
+    <div class="song-row">
+      <select id="song-select" disabled></select>
+    </div>
+    <h1 id="track-title">Loading…</h1>
+
+    <div class="seek-row">
+      <span id="time-current">0:00</span>
+      <input type="range" id="seek-bar" min="0" max="1000" value="0" step="1">
+      <span id="time-duration">0:00</span>
+    </div>
+
+    <div class="controls">
+      <button id="play-pause-btn" disabled>Play</button>
+      <button id="vocal-toggle-btn" disabled>Vocals: On</button>
+    </div>
+
+    <p id="status">Loading song list…</p>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
