@@ -19,5 +19,40 @@
     "artist": "The Chainsmokers ft. Halsey",
     "fullMix": "audio/closer/full_mix.wav",
     "instrumental": "audio/closer/instrumental.wav"
+  },
+  {
+    "id": "crazy-story",
+    "title": "Crazy Story (Remix)",
+    "artist": "King Von ft. Lil Durk",
+    "fullMix": "audio/crazy-story/full_mix.wav",
+    "instrumental": "audio/crazy-story/instrumental.wav"
+  },
+  {
+    "id": "baby-one-more-time",
+    "title": "...Baby One More Time",
+    "artist": "Britney Spears",
+    "fullMix": "audio/baby-one-more-time/full_mix.wav",
+    "instrumental": "audio/baby-one-more-time/instrumental.wav"
+  },
+  {
+    "id": "art-deco",
+    "title": "Art Deco",
+    "artist": "Lana Del Rey",
+    "fullMix": "audio/art-deco/full_mix.wav",
+    "instrumental": "audio/art-deco/instrumental.wav"
+  },
+  {
+    "id": "sorry-bout-that",
+    "title": "Sorry Bout That",
+    "artist": "Yeat",
+    "fullMix": "audio/sorry-bout-that/full_mix.wav",
+    "instrumental": "audio/sorry-bout-that/instrumental.wav"
+  },
+  {
+    "id": "type-shit",
+    "title": "Type Shit",
+    "artist": "Future, Metro Boomin, Travis Scott & Playboi Carti",
+    "fullMix": "audio/type-shit/full_mix.wav",
+    "instrumental": "audio/type-shit/instrumental.wav"
   }
 ]
