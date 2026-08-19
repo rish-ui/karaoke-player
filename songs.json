@@ -54,5 +54,12 @@
     "artist": "Future, Metro Boomin, Travis Scott & Playboi Carti",
     "fullMix": "audio/type-shit/full_mix.wav",
     "instrumental": "audio/type-shit/instrumental.wav"
+  },
+  {
+    "id": "sweater-weather",
+    "title": "Sweater Weather",
+    "artist": "The Neighbourhood",
+    "fullMix": "audio/sweater-weather/full_mix.wav",
+    "instrumental": "audio/sweater-weather/instrumental.wav"
   }
 ]
