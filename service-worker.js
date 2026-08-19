@@ -1,6 +1,6 @@
 // Bump this when index.html/app.js/style.css/songs.json/icons change, so
 // clients pick up the new app shell instead of serving a stale cached copy.
-const CACHE_NAME = 'karaoke-player-v1';
+const CACHE_NAME = 'karaoke-player-v2';
 
 const APP_SHELL = [
   './',
