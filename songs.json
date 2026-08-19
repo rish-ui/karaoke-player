@@ -12,5 +12,12 @@
     "artist": "Yeat (prod. BNYX, Sapjer)",
     "fullMix": "audio/come-n-go/full_mix.wav",
     "instrumental": "audio/come-n-go/instrumental.wav"
+  },
+  {
+    "id": "closer",
+    "title": "Closer",
+    "artist": "The Chainsmokers ft. Halsey",
+    "fullMix": "audio/closer/full_mix.wav",
+    "instrumental": "audio/closer/instrumental.wav"
   }
 ]
